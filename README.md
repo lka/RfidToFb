@@ -37,10 +37,10 @@ create JSON file 'configuration.json' in config directory and enter:
 
 ## Usage
 
-use RFID-Reader or Barcode-Scanner as USB-Keyboard emulation
-  read RFID-Chip or Barcode
-  after eol the program sends the entered string to the database
-  use a trigger in the database to give it intelligence and handle the data
+* use RFID-Reader or Barcode-Scanner as USB-Keyboard emulation
+* read RFID-Chip or Barcode
+* after eol the program sends the entered string to the database
+* use a trigger in the database to give it intelligence and handle the data
 
 ## Running the build
 
@@ -48,9 +48,9 @@ not necessary
 
 ## Test
 
-use Keyboard
-  enter string, end with "Enter"
-  look at database, whether string and timestamp was entered in table
+* use Keyboard
+* enter string, end with "Enter"
+* look at database, whether string and timestamp was entered in table
 
 ## License
 
