@@ -18,13 +18,20 @@ get project from github and use
 to install all dependencies
 
 create table in your firebird database with:
+
   ID integer not null autoincrement,
+
   DAT timestamp,
+
   STATION integer,
+
   SN varchar(40)
 
+
 create directory 'config' in project directory
+
 create JSON file 'configuration.json' in config directory and enter:
+
 {"host":"IPV4-address of your firebird server","database":"path to your database file","table":"name of your table in database to write to","station":Number,"transaction":1 for use transaction=yes or 0 for no}
 
 ## Quick Start
