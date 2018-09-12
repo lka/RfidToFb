@@ -19,13 +19,10 @@ to install all dependencies
 
 create table in your firebird database with:
 
-  ID integer not null autoincrement,
-
-  DAT timestamp,
-
-  STATION integer,
-
-  SN varchar(40)
+    ID integer not null autoincrement,
+    DAT timestamp,
+    STATION integer,
+    SN varchar(40)
 
 
 create directory 'config' in project directory
