@@ -15,7 +15,7 @@ get project from github and use
 
 > npm install
 
-to install all dependencies
+  to install all dependencies
 
 create table in your firebird database with:
 
@@ -29,7 +29,7 @@ create directory 'config' in project directory
 
 create JSON file 'configuration.json' in config directory and enter:
 
-{"host":"IPV4-address of your firebird server","database":"path to your database file","table":"name of your table in database to write to","station":Number,"transaction":1 for use transaction=yes or 0 for no}
+    {"host":"IPV4-address of your firebird server","database":"path to your database file","table":"name of your table in database to write to","station":Number,"transaction":1 for use transaction=yes or 0 for no}
 
 ## Quick Start
 
@@ -38,19 +38,19 @@ create JSON file 'configuration.json' in config directory and enter:
 ## Usage
 
 use RFID-Reader or Barcode-Scanner as USB-Keyboard emulation
-read RFID-Chip or Barcode
-after eol the program sends the entered string to the database
-use a trigger in the database to give it intelligence and handle the data
+  read RFID-Chip or Barcode
+  after eol the program sends the entered string to the database
+  use a trigger in the database to give it intelligence and handle the data
 
 ## Running the build
 
-> npm pack
+not necessary
 
 ## Test
 
 use Keyboard
-enter string, end with "Enter"
-look at database, whether string and timestamp was entered in table
+  enter string, end with "Enter"
+  look at database, whether string and timestamp was entered in table
 
 ## License
 
