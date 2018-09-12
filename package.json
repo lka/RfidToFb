@@ -1,0 +1,15 @@
+{
+  "name": "RfidToFb",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "concat-stream": "^1.6.2",
+    "node-firebird": "^0.8.6",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "Herbert Lischka",
+    "email": "mail@lischka-berlin.de"
+  }
+}
